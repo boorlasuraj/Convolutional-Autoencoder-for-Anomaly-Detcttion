@@ -1,1 +1,1 @@
-# Convolutional-Autoencoder-for-Anomaly-Detcttion
+# Convolutional-Autoencoder-for-Anomaly-Detection
