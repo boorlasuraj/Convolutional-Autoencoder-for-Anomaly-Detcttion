@@ -1,0 +1,80 @@
+PS D:\conAEbackupnotebooks\copies> python test4.2.4-copy.py
+Running on GPU: True
+Epoch [1/50] - Train Loss: 0.1738, Val Loss: 0.0907, LR: 0.001000
+Epoch [2/50] - Train Loss: 0.1320, Val Loss: 0.0861, LR: 0.001000
+Epoch [3/50] - Train Loss: 0.1272, Val Loss: 0.0693, LR: 0.001000
+Epoch [4/50] - Train Loss: 0.1211, Val Loss: 0.0591, LR: 0.001000
+Epoch [5/50] - Train Loss: 0.1203, Val Loss: 0.0619, LR: 0.001000
+Epoch [6/50] - Train Loss: 0.1240, Val Loss: 0.0586, LR: 0.001000
+Epoch [7/50] - Train Loss: 0.1241, Val Loss: 0.0637, LR: 0.001000
+Epoch [8/50] - Train Loss: 0.1214, Val Loss: 0.0568, LR: 0.001000
+Epoch [9/50] - Train Loss: 0.1165, Val Loss: 0.0592, LR: 0.001000
+Epoch [10/50] - Train Loss: 0.1151, Val Loss: 0.0555, LR: 0.000500
+Epoch [11/50] - Train Loss: 0.1141, Val Loss: 0.0550, LR: 0.000500
+Epoch [12/50] - Train Loss: 0.1130, Val Loss: 0.0573, LR: 0.000500
+Epoch [13/50] - Train Loss: 0.1112, Val Loss: 0.0589, LR: 0.000500
+Epoch [14/50] - Train Loss: 0.1110, Val Loss: 0.0578, LR: 0.000500
+Epoch [15/50] - Train Loss: 0.1115, Val Loss: 0.0580, LR: 0.000500
+Epoch [16/50] - Train Loss: 0.1123, Val Loss: 0.0594, LR: 0.000500
+Epoch [17/50] - Train Loss: 0.1074, Val Loss: 0.0552, LR: 0.000500
+Epoch [18/50] - Train Loss: 0.1078, Val Loss: 0.0504, LR: 0.000500
+Epoch [19/50] - Train Loss: 0.1080, Val Loss: 0.0516, LR: 0.000500
+Epoch [20/50] - Train Loss: 0.1086, Val Loss: 0.0553, LR: 0.000250
+Epoch [21/50] - Train Loss: 0.1067, Val Loss: 0.0610, LR: 0.000250
+Epoch [22/50] - Train Loss: 0.1045, Val Loss: 0.0572, LR: 0.000250
+Epoch [23/50] - Train Loss: 0.1054, Val Loss: 0.0544, LR: 0.000250
+Epoch [24/50] - Train Loss: 0.1048, Val Loss: 0.0590, LR: 0.000250
+Epoch [25/50] - Train Loss: 0.1042, Val Loss: 0.0518, LR: 0.000250
+Epoch [26/50] - Train Loss: 0.1030, Val Loss: 0.0590, LR: 0.000250
+Epoch [27/50] - Train Loss: 0.1049, Val Loss: 0.0504, LR: 0.000250
+Epoch [28/50] - Train Loss: 0.1035, Val Loss: 0.0535, LR: 0.000250
+Epoch [29/50] - Train Loss: 0.1012, Val Loss: 0.0487, LR: 0.000250
+Epoch [30/50] - Train Loss: 0.1034, Val Loss: 0.0543, LR: 0.000125
+Epoch [31/50] - Train Loss: 0.1026, Val Loss: 0.0534, LR: 0.000125
+Epoch [32/50] - Train Loss: 0.0991, Val Loss: 0.0509, LR: 0.000125
+Epoch [33/50] - Train Loss: 0.0997, Val Loss: 0.0537, LR: 0.000125
+Epoch [34/50] - Train Loss: 0.1003, Val Loss: 0.0534, LR: 0.000125
+Epoch [35/50] - Train Loss: 0.0995, Val Loss: 0.0531, LR: 0.000125
+Epoch [36/50] - Train Loss: 0.0991, Val Loss: 0.0504, LR: 0.000125
+Epoch [37/50] - Train Loss: 0.0987, Val Loss: 0.0518, LR: 0.000125
+Epoch [38/50] - Train Loss: 0.0983, Val Loss: 0.0534, LR: 0.000125
+Epoch [39/50] - Train Loss: 0.0995, Val Loss: 0.0516, LR: 0.000125
+Epoch [40/50] - Train Loss: 0.0991, Val Loss: 0.0533, LR: 0.000063
+Epoch [41/50] - Train Loss: 0.0994, Val Loss: 0.0544, LR: 0.000063
+Epoch [42/50] - Train Loss: 0.0968, Val Loss: 0.0563, LR: 0.000063
+Epoch [43/50] - Train Loss: 0.0975, Val Loss: 0.0549, LR: 0.000063
+Epoch [44/50] - Train Loss: 0.0974, Val Loss: 0.0532, LR: 0.000063
+Epoch [45/50] - Train Loss: 0.0969, Val Loss: 0.0496, LR: 0.000063
+Epoch [46/50] - Train Loss: 0.0965, Val Loss: 0.0508, LR: 0.000063
+Epoch [47/50] - Train Loss: 0.0949, Val Loss: 0.0514, LR: 0.000063
+Epoch [48/50] - Train Loss: 0.0965, Val Loss: 0.0531, LR: 0.000063
+Epoch [49/50] - Train Loss: 0.0965, Val Loss: 0.0543, LR: 0.000063
+Epoch [50/50] - Train Loss: 0.0966, Val Loss: 0.0517, LR: 0.000031
+Model saved at: D:\conAEbackupnotebooks\models\cae_model6.pth
+Anomaly detection threshold: 0.1278
+
+Predictions on Test Images:
+Image 01: Recon Error = 0.1914 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 02: Recon Error = 0.3891 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 03: Recon Error = 0.4008 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 04: Recon Error = 0.1921 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 05: Recon Error = 0.1748 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 06: Recon Error = 0.1226 -> Predicted: Healthy, Actual: Healthy (correct)
+Image 07: Recon Error = 0.3343 -> Predicted: Tumor, Actual: Healthy (wrong)
+Image 08: Recon Error = 0.3192 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 09: Recon Error = 0.2326 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 10: Recon Error = 0.1901 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 11: Recon Error = 0.3536 -> Predicted: Tumor, Actual: Healthy (wrong)
+Image 12: Recon Error = 0.1223 -> Predicted: Healthy, Actual: Healthy (correct)
+Image 13: Recon Error = 0.3039 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 14: Recon Error = 0.4031 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 15: Recon Error = 0.2359 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 16: Recon Error = 0.4567 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 17: Recon Error = 0.3005 -> Predicted: Tumor, Actual: Healthy (wrong)
+Image 18: Recon Error = 0.1969 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 19: Recon Error = 0.2924 -> Predicted: Tumor, Actual: Tumor (correct)
+Image 20: Recon Error = 0.2054 -> Predicted: Tumor, Actual: Tumor (correct)
+
+Total Correct: 17 correct, Total Wrong: 3 wrong
+Test results saved to: D:\conAEbackupnotebooks\outputs\test_results_grid3.png
+Done.
